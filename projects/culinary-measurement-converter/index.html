@@ -8,6 +8,53 @@
     <title>Conversor de medidas</title>
 </head>
 <body>
-    
+    <main>
+        <h1>Conversor de Medidas</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus corrupti veritatis esse aut ratione sapiente voluptatem, perspiciatis earum minima dignissimos! <!--texto a ser definido--></p>
+
+        <form action="" method="get">
+            <div>
+                <label for="ingredientes">Ingredientes:</label>
+                <select name="ingredientes-opcoes" id="ingredientes-opcoes">
+                    <option value="acucar">Açúcar</option>    
+                    <option value="amido">Amido de milho</option>
+                    <option value="aveia">Aveia</option>
+                    <option value="chocolate-em-po">Chocolate em pó</option>
+                    <option value="farinha">Farinha</option>
+                    <option value="leite">Leite</option>
+                    <option value="manteiga-margarina">Manteiga/Margarina</option>
+                    <option value="oleo">Óleo</option>
+                    <option value="polvilho">Polvilho</option>
+                    <option value="sal">Sal</option>
+                </select>
+            </div>
+            <div>
+                <label for="medida-inicial">Unidade de medida:</label>
+                <select name="unidade-inicial" id="unidade-inicial">
+                    <option value="colher-cha">Colher de chá</option>
+                    <option value="colher-sopa">Colher de sopa</option>
+                    <option value="gramas">Gramas</option>
+                    <option value="ml">Mililitros (Ml)</option>
+                    <option value="xicaras">Xícaras</option>
+                </select>
+                <label for="quantidade">Quantidade:</label>
+                <input type="number">
+            </div>
+            <img src="images/down-arrow.png" alt="seta para baixo">
+            <div>
+                <label for="medida-desejada">Unidade desejada:</label>
+                <select name="unidade-desejada" id="unidade-desejada">
+                    <option value="colher-cha">Colher de chá</option>
+                    <option value="colher-sopa">Colher de sopa</option>
+                    <option value="gramas">Gramas</option>
+                    <option value="ml">Mililitros (Ml)</option>
+                    <option value="xicaras">Xícaras</option>
+                </select>
+            </div>
+        </form>
+        <div class="resultado"></div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
