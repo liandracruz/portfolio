@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Poiret+One&display=swap');
+
+:root {
+    --colo1: #cf2e7f;
+    --color2: #f084b6;
+    --color3: #f8f8f8;
+    --fonttitle: "Akaya Kanadaka", system-ui;
+    --fontbody: "Poiret One", sans-serif;
+}
+
+
