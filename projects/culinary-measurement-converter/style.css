@@ -4,10 +4,86 @@
 
 :root {
     --colo1: #cf2e7f;
-    --color2: #f084b6;
+    --color2: #e64a92;
     --color3: #f8f8f8;
     --fonttitle: "Akaya Kanadaka", system-ui;
     --fontbody: "Poiret One", sans-serif;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
+body {
+    min-height: 80vh;
+    position: relative;
+    background-image: url(images/background.png);
+    font-family: var(--fontbody);
+    font-weight: 600;
+    padding: 50px;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    background-color: #f8f8f8de;
+    align-items: center;
+    width: 40vw;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: var(--fonttitle);
+    font-weight: 100;
+    text-align: center;
+    color: var(--colo1);
+    padding-bottom: 5px;
+}
+
+p {
+    text-align: justify;
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+label {
+    color: var(--color2);
+}
+
+select, input {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px 0px 10px 0px;
+}
+
+input {
+    width: 98.5%;
+}
+
+img {
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+
+button {
+    padding: 10px;
+    border: 2px solid var(--color2);
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: var(--color3);
+    color: var(--color2);
+}
+
+button:hover {
+    background-color: var(--color2);
+    color: var(--color3);
+    cursor: pointer;
+}
