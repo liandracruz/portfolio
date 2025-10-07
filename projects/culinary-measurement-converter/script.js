@@ -1,40 +1,45 @@
-//Armazenar o ingrediente em uma variável
-const ingrediente = document.getElementById('ingredientes-opcoes');
-let ingredienteSelecionado = '';
-ingrediente.addEventListener('change', function(event) {
-    ingredienteSelecionado = event.target.value;
-    console.log(ingredienteSelecionado);
-});
+//Para ingradientes secos RETIRAR o ML das opções de medidas
 
-//Armazenar a unidade inicial em uma variável
-const unidadeInicial = document.getElementById('unidade-inicial');
-let uniInicialSelecionada = '';
-unidadeInicial.addEventListener('change', function(event) {
-    uniInicialSelecionada = event.target.value;
-    console.log(uniInicialSelecionada);
-});
+// Açúcar -> 1 xícara = 200 gramas ou 14 colheres de sopa | 1 colher de sopa = 14 gramas | 1 colher de chá = 4 gramas
 
-//Armazenar a quantiade inicial em uma variável
-const quantidade = document.querySelector('.quantidade');
-let quantidadeInfo = '';
-quantidade.addEventListener('input', function(event) {
-    quantidadeInfo = event.target.value;
-    console.log(quantidadeInfo);
-});
+// Amido de milho -> 1 xícara = 150 gramas | 1 colher de sopa = 9 gramas | 1 colher de chá = 3 gramas
 
-//Armazenar a unidade desejada em uma variável
-const unidadeDesejada = document.getElementById('unidade-desejada');
-let uniDesejadaSelecionada = '';
-unidadeDesejada.addEventListener('change', function(event) {
-    uniDesejadaSelecionada = event.target.value;
-    console.log(uniDesejadaSelecionada);
-});
+// Aveia -> 1 xícara = 80 gramas | 1 colher de sopa = 5 gramas | 1 colher de chá = 1,5 gramas
 
-console.log(ingrediente, unidadeInicial, quantidade, unidadeDesejada);
+// Chocolate em pó -> 1 xícara = 100 gramas | 1 colher de sopa = 6 gramas
 
+// Farinha -> 1 xícara = 165 gramas ou 13 colheres de sopa | 1 colher de sopa = 13 gramas | 1 colher de chá = 2 gramas
 
-//Ajustar as unidades de medida para serem compatíveis com o tipo de ingrediente: deixar ml apenas para ingredientes liquidos
+// Leite e óleo -> 1 xícara = 250ml |1 colher de sopa = 15ml | 1 colher de chá = 5ml
 
-//Criar um evento: quando o botão "calcular" é clicado a conversão é feita.
+// Manteiga ou Margarina -> 1 xícara = 200 gramas | 1 colher de sopa = 12 gramas | 1 colher de chá = 4 gramas
 
-//Exibir o resultado da conversão na div "resultado"
+// Polvilho -> 1 xícara = 150 gramas | 1 colher de sopa = 9 gramas | 1 colher de chá = 3 gramas
+
+/*
+Pesos x Medidas
+1 litro = 4 xícaras
+1 copo de vinho = 6 colheres de sopa
+1 cálice = 3 colheres de sopa
+1 colher de sopa = 15 colheres de café
+1 colher de sobremesa = 10 colheres de café
+1 colher de chá = 3 colheres de café
+1 colher de café = 1/2 colher de chá
+*/
+
+/*
+Produtos – Equivalência para líquidos
+1 copo americano = 200 ml
+1/2 copo = 100 ml
+1 xícara = 250 ml
+1/2 xícara = 125 ml
+3/4 de xícara = 180 ml
+1/4 de xícara = 62,5 ml
+1 copo (requeijão) = 250 ml
+1/2 copo = 125 ml
+1 colher de sopa = 15 ml
+1 colher de sobremesa = 10 ml
+1 colher de chá = 5 ml
+1 colher de café = 2,5 ml
+1 cálice = 9 colheres de sopa
+*/
