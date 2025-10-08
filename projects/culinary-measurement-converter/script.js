@@ -43,3 +43,14 @@ Produtos – Equivalência para líquidos
 1 colher de café = 2,5 ml
 1 cálice = 9 colheres de sopa
 */
+
+/* 
+PLANEJAMENTO
+1. Quando ingredientes secos (incluindo manteiga/margarina) são selecionados no input de ingredientes o ml devem sumir dos inputs de medida.
+
+2. Quando ingredientes liquidos foram selecionados no input de ingredientes os gramas devem sumir dos inputs de medida.
+
+3. Assim que o botão "calcular" for clicado a conversão deve ser feita com base nos dados adicionados nos inputs pelo usuário.
+
+4. Mostrar o resultado da conversão na div resultado.
+*/
