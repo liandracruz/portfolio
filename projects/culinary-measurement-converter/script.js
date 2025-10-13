@@ -60,6 +60,11 @@ const uniInicial = document.querySelector('#unidade-inicial');
 const quantidade = document.querySelector('.quantidade');
 const uniDesejada = document.querySelector('#unidade-desejada');
 
+//Criar uma função de selecionados para não repetir o código o tempo todo.
+const selecionados = function() {
+    
+};
+
 ingredientes.addEventListener('change', function() {
     const ingSelecionado = ingredientes.value;
 });
