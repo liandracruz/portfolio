@@ -54,3 +54,20 @@ PLANEJAMENTO
 
 4. Mostrar o resultado da conversão na div resultado.
 */
+
+const ingredientes = document.querySelector('#ingredientes-opcoes');
+const uniInicial = document.querySelector('#unidade-inicial');
+const quantidade = document.querySelector('.quantidade');
+const uniDesejada = document.querySelector('#unidade-desejada');
+
+ingredientes.addEventListener('change', function() {
+    const ingSelecionado = ingredientes.value;
+});
+
+uniInicial.addEventListener('change', function() {
+    const uniInSelecionada = uniInicial.value;
+    
+})
+
+
+

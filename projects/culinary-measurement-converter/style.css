@@ -87,3 +87,7 @@ button:hover {
     color: var(--color3);
     cursor: pointer;
 }
+
+.hidden {
+    display: none;
+}
