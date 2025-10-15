@@ -55,11 +55,16 @@ PLANEJAMENTO
 4. Mostrar o resultado da conversão na div resultado.
 */
 
+const formulario = document.querySelector('#form');
 const ingredientes = document.querySelector('#ingredientes-opcoes');
 const uniInicial = document.querySelector('#unidade-inicial');
 const quantidade = document.querySelector('.quantidade');
 const uniDesejada = document.querySelector('#unidade-desejada');
 
+//Impedindo que a página recarregue com o input de quantidade
+formulario.addEventListener('submit', function(e) {
+    e.preventDefault;
+})
 
 //Criar uma função de selecionados para não repetir o código o tempo todo.
 const selecionados = function(elSelecionado, callback) {
@@ -71,6 +76,9 @@ const selecionados = function(elSelecionado, callback) {
 
 selecionados(ingredientes, (valor) => {console.log(valor)});
 selecionados(uniInicial, (valor) => {console.log(valor)});
-selecionados(quantidade, (valor) => {console.log(valor)}); //página recarrega quando o input é preenchido
 selecionados(uniDesejada, (valor) => {console.log(valor)});
+
+quantidade.addEventListener('input', function() {
+    console.log(quantidade.value);
+});
 
