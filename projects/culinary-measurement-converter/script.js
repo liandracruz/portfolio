@@ -68,7 +68,7 @@ formulario.addEventListener('submit', function(e) {
 //Criar uma função de selecionados para não repetir o código o tempo todo.
 const selecionados = function(elSelecionado, callback) {
     elSelecionado.addEventListener('change', function() {
-        const selecao = elSelecionado.value;
+        const selecao = elSelecionado.options[elSelecionado.selectedIndex];
         callback(selecao);
     });
 };
@@ -77,7 +77,11 @@ const selecionados = function(elSelecionado, callback) {
 selecionados(ingredientes, (valor) => {
     const ingSelecionado = valor;
     if(ingSelecionado.classList.contains('ing-seco')) {
-        uniInicial.children.classList.
+        const mlOption = uniInicial.querySelector('option[value="ml"]');
+        mlOption.classList.add('hidden');
+    } else {
+        const mlOption = uniInicial.querySelector('option[value="ml"]');
+        mlOption.classList.remove('hidden');
     }
 });
 
