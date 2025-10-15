@@ -46,7 +46,6 @@ Produtos – Equivalência para líquidos
 
 /* 
 PLANEJAMENTO
-1. Quando ingredientes secos (incluindo manteiga/margarina) são selecionados no input de ingredientes o ml devem sumir dos inputs de medida.
 
 2. Quando ingredientes liquidos foram selecionados no input de ingredientes os gramas devem sumir dos inputs de medida.
 
@@ -74,7 +73,15 @@ const selecionados = function(elSelecionado, callback) {
     });
 };
 
-selecionados(ingredientes, (valor) => {console.log(valor)});
+// 1. Quando ingredientes secos (incluindo manteiga/margarina) são selecionados no input de ingredientes o ml devem sumir dos inputs de medida.
+selecionados(ingredientes, (valor) => {
+    const ingSelecionado = valor;
+    if(ingSelecionado.classList.contains('ing-seco')) {
+        uniInicial.children.classList.
+    }
+});
+
+// selecionados(ingredientes, (valor) => {console.log(valor)});
 selecionados(uniInicial, (valor) => {console.log(valor)});
 selecionados(uniDesejada, (valor) => {console.log(valor)});
 
