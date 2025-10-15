@@ -85,6 +85,10 @@ selecionados(ingredientes, (valor) => {
     }
 });
 
+//Criar uma função que esconda o ml tanto na uniInicial quanto na uniDesejada
+
+
+
 // selecionados(ingredientes, (valor) => {console.log(valor)});
 selecionados(uniInicial, (valor) => {console.log(valor)});
 selecionados(uniDesejada, (valor) => {console.log(valor)});
@@ -92,4 +96,3 @@ selecionados(uniDesejada, (valor) => {console.log(valor)});
 quantidade.addEventListener('input', function() {
     console.log(quantidade.value);
 });
-
