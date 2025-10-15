@@ -60,19 +60,17 @@ const uniInicial = document.querySelector('#unidade-inicial');
 const quantidade = document.querySelector('.quantidade');
 const uniDesejada = document.querySelector('#unidade-desejada');
 
+
 //Criar uma função de selecionados para não repetir o código o tempo todo.
-const selecionados = function() {
-    
+const selecionados = function(elSelecionado, callback) {
+    elSelecionado.addEventListener('change', function() {
+        const selecao = elSelecionado.value;
+        callback(selecao);
+    });
 };
 
-ingredientes.addEventListener('change', function() {
-    const ingSelecionado = ingredientes.value;
-});
-
-uniInicial.addEventListener('change', function() {
-    const uniInSelecionada = uniInicial.value;
-    
-})
-
-
+selecionados(ingredientes, (valor) => {console.log(valor)});
+selecionados(uniInicial, (valor) => {console.log(valor)});
+selecionados(quantidade, (valor) => {console.log(valor)}); //página recarrega quando o input é preenchido
+selecionados(uniDesejada, (valor) => {console.log(valor)});
 
