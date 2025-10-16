@@ -46,12 +46,11 @@ Produtos – Equivalência para líquidos
 
 /* 
 PLANEJAMENTO
+// 1. Quando ingredientes secos (incluindo manteiga/margarina) são selecionados no input de ingredientes o ml devem sumir dos inputs de medida. Quando ingredientes liquidos foram selecionados no input de ingredientes os gramas devem sumir dos inputs de medida.
 
-2. Quando ingredientes liquidos foram selecionados no input de ingredientes os gramas devem sumir dos inputs de medida.
+2. Assim que o botão "calcular" for clicado a conversão deve ser feita com base nos dados adicionados nos inputs pelo usuário.
 
-3. Assim que o botão "calcular" for clicado a conversão deve ser feita com base nos dados adicionados nos inputs pelo usuário.
-
-4. Mostrar o resultado da conversão na div resultado.
+3. Mostrar o resultado da conversão na div resultado.
 */
 
 const formulario = document.querySelector('#form');
@@ -73,26 +72,4 @@ const selecionados = function(elSelecionado, callback) {
     });
 };
 
-// 1. Quando ingredientes secos (incluindo manteiga/margarina) são selecionados no input de ingredientes o ml devem sumir dos inputs de medida.
-selecionados(ingredientes, (valor) => {
-    const ingSelecionado = valor;
-    if(ingSelecionado.classList.contains('ing-seco')) {
-        const mlOption = uniInicial.querySelector('option[value="ml"]');
-        mlOption.classList.add('hidden');
-    } else {
-        const mlOption = uniInicial.querySelector('option[value="ml"]');
-        mlOption.classList.remove('hidden');
-    }
-});
-
-//Criar uma função que esconda o ml tanto na uniInicial quanto na uniDesejada
-
-
-
-// selecionados(ingredientes, (valor) => {console.log(valor)});
-selecionados(uniInicial, (valor) => {console.log(valor)});
-selecionados(uniDesejada, (valor) => {console.log(valor)});
-
-quantidade.addEventListener('input', function() {
-    console.log(quantidade.value);
-});
+// 1. Quando ingredientes secos (incluindo manteiga/margarina) são selecionados no input de ingredientes o ml devem sumir dos inputs de medida. Quando ingredientes liquidos foram selecionados no input de ingredientes os gramas devem sumir dos inputs de medida.
