@@ -1,0 +1,25 @@
+Página principal - light mode
+- #e6ebe0 - Off-white (background, cor predominante)
+- #0a0908 - Black (textos)
+- #034748 - Deep pine (títulos, subtítulos)
+- #e34a6f - Raspberry (destaques)
+- #9bc1bc - Ash Grey (elementos secundários, detalhes)
+
+Página principal - dark mode
+- #0a0908 - Black (background, cor predominante)
+- #034748 - Deep pine (background, cor predominante)
+- #e6ebe0 - Off-white (textos)
+- #e34a6f - Raspberry (destaques)
+- #9bc1bc - Ash Grey (elementos secundários, detalhes)
+
+Jogo da memória
+
+Pomodoro
+
+Explorador de filmes
+
+Trivia
+
+Atlas
+
+Library manager
