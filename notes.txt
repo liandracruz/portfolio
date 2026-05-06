@@ -14,6 +14,17 @@ Página principal - dark mode
 
 Jogo da memória
 
+Níveis
+Fácil - 4x3 = 6 pares (12 cartas)
+Médio - 5x4 = 10 pares (20 cartas)
+Difícil - 6x6 = 18 pares (36 cartas)
+
+
+Paleta de cores
+- #2D00F7, #6A00F4, #8900F2, #A100F2, #B100E8, #BC00DD, #D100D1, #DB00B6, #E500A4, #F20089 - Gradiente (background)
+
+
+
 Pomodoro
 
 Explorador de filmes
