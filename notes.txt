@@ -44,6 +44,11 @@ Paleta de cores
 - #24F1DD - par 18
 
 Pomodoro
+- #DA1E37 - light red
+- #B21E35 - dark red
+- #EFEFEF - off-white
+- #093824 - green
+- #020202 - black
 
 Explorador de filmes
 
