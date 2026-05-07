@@ -21,9 +21,27 @@ Difícil - 6x6 = 18 pares (36 cartas)
 
 
 Paleta de cores
-- #2D00F7, #6A00F4, #8900F2, #A100F2, #B100E8, #BC00DD, #D100D1, #DB00B6, #E500A4, #F20089 - Gradiente (background)
-
-
+- #2D00F7, #A100F2, #D100D1, #F20089 - Gradiente (background)
+- #F7F7E7 - off-white
+- #000000 - preto
+- #6A00F4 - par 1
+- #BC00DD - par 2
+- #E500A4 - par 3
+- #256EFF - par 4
+- #BE0A3A - par 5
+- #F84113 - par 6
+- #0424DE - par 7
+- #1E2624 - par 8
+- #F8C21F - par 9
+- #0DB128 - par 10
+- #EE0B4F - par 11
+- #00D161 - par 12
+- #FB3E3E - par 13
+- #FF6593 - par 14
+- #B077C5 - par 15
+- #8BE95C - par 16
+- #C20044 - par 17
+- #24F1DD - par 18
 
 Pomodoro
 
