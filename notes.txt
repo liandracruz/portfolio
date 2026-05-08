@@ -12,8 +12,25 @@ Página principal - dark mode
 - #e34a6f - Raspberry (destaques)
 - #9bc1bc - Ash Grey (elementos secundários, detalhes)
 
-Jogo da memória
 
+ICONES
+- favicon
+- skills -> <i class="fa-solid fa-brain"></i>
+- ferramentas -> <i class="fa-solid fa-wrench"></i>
+- projects -> <i class="fa-solid fa-folder-open"></i>
+- social media -> <i class="fa-solid fa-user"></i>
+- light mode -> <i class="fa-regular fa-sun"></i>
+- dark mode -> <i class="fa-regular fa-sun"></i>
+- html -> <i class="fa-brands fa-html5"></i>
+- css -> <i class="fa-brands fa-css3-alt"></i>
+- javascript -> <i class="fa-brands fa-square-js"></i>
+- github -> <i class="fa-brands fa-github"></i>
+- linkedin -> <i class="fa-brands fa-square-linkedin"></i>
+
+- languages -> <i class="fa-brands fa-square-linkedin"></i> 
+
+PROJETOS
+Jogo da memória
 Níveis
 Fácil - 4x3 = 6 pares (12 cartas)
 Médio - 5x4 = 10 pares (20 cartas)
