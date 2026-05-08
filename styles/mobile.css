@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
-    --light-base: #e6ebe0;
+    --light-base: #eeeeee;
     --dark-base: #0a0908;
     --dark-details: #034748;
     --accent: #e34a6f;
@@ -19,4 +19,69 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+body {
+    background-color: var(--light-base);
+    font-family: var(--font-body);
+    font-size: 1.1em;
+    color: var(--dark-base);
+}
+
+header nav > ul {
+    /* background-color: #034748; */
+    display: flex;
+    padding: 15px;
+}
+
+header nav ul > li {
+    padding-right: 15px;
+}
+
+header nav ul > li#mode-switch {
+    /* background-color: #e34a6f; */
+    margin-left: auto;
+    padding-right: 0px;
+}
+
+header nav ul li i {
+    font-size: 1.2em;
+    color: var(--accent);
+}
+
+header nav ul li#mode-switch > i {
+    color: var(--dark-base);
+}
+
+section.hero-section {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10px;
+    /* height: ;*/
+    color: var(--light-base);
+    box-shadow: 3px 2px 12px 2px rgba(0, 0, 0, 0.4);
+    margin-bottom: 15px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.hero-section h1 {
+    font-family: var(--font-title);
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 300;
+}
+
+section.hero-section h1 > span {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+section.hero-section p {
+    text-align: justify;
+    margin: 15px;
+}
+
 
