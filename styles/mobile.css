@@ -56,6 +56,7 @@ section.hero-section {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/hero-image.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     padding: 20px 10px;
     /* height: ;*/
     color: var(--light-base);
@@ -67,8 +68,11 @@ section.hero-section {
     align-items: center;
 }
 
-section.hero-section h1 {
+h1, h2 {
     font-family: var(--font-title);
+}
+
+section.hero-section h1 {
     font-size: 1.5em;
     text-align: center;
     font-weight: 300;
@@ -84,4 +88,51 @@ section.hero-section p {
     margin: 15px;
 }
 
+div.content {
+    /* margin: 20px; */
+    padding: 5px 20px;
+}
+
+div.content h2 {
+    font-size: 1.6em;
+    color: var(--accent);
+    /* margin-bottom: 10px; */
+}
+
+div.content section#skills div.skills-el-container {
+    display: flex;
+    justify-content: center;
+
+    margin: 15px 0px;
+}
+
+div.content section#skills div.skills-el-container > div.el-skills {
+    background-color: var(--light-details);
+    padding: 10px;
+    margin: 0px 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.content section#skills div.skills-el-container div.el-skills > i {
+    font-size: 1.5em;
+    color: var(--dark-details);
+}
+
+div.content h3 {
+    color: var(--dark-details);
+}
+
+div.content section#tools h3 {
+    margin: 15px 0px 5px 0px;
+}
+
+div.content section#tools p {
+    text-align: justify;
+}
 
