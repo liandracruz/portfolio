@@ -42,94 +42,28 @@
 - Difícil - 6x6 = 18 pares (36 cartas)
 
 
-#### Paleta de cores
+#### Paleta de cores e elementos
 - #2D00F7, #A100F2, #D100D1, #F20089 - Gradiente (background)
 - #F7F7E7 - off-white
 - #000000 - preto
-- #6A00F4 - par 1
-- #BC00DD - par 2
-- #E500A4 - par 3
-- #256EFF - par 4
-- #BE0A3A - par 5
-- #F84113 - par 6
-- #0424DE - par 7
-- #1E2624 - par 8
-- #F8C21F - par 9
-- #0DB128 - par 10
-- #EE0B4F - par 11
-- #00D161 - par 12
-- #FB3E3E - par 13
-- #FF6593 - par 14
-- #B077C5 - par 15
-- #8BE95C - par 16
-- #C20044 - par 17
-- #24F1DD - par 18
-
-#### Icones
--  - par 1
--  - par 2
--  - par 3
--  - par 4
--  - par 5
--  - par 6
--  - par 7
--  - par 8
--  - par 9
--  - par 10
--  - par 11
--  - par 12
--  - par 13
--  - par 14
--  - par 15
--  - par 16
--  - par 17
--  - par 18
-
-anchor
-angeslist
-apple
-bell
-biohazard
-bomb
-brain
-bullseye
-cake
-camera
-maple
-chess pieces
-radiation
-cloud
-clover
-crown
-bird
-dice
-feather
-fly
-graduation cap
-gripfire
-guitar
-hand piece
-heart
-ice cream
-laptop
-lemon
-lightbulb
-microphone
-mug
-paw
-pen
-pencil
-pizza
-plane
-puzzle piece
-rocket
-snostar
-tree
-trophy
-umbrella
-glass
-
-
+- #6A00F4 - <i class="fa-solid fa-chess-king"></i>
+- #BC00DD - <i class="fa-solid fa-guitar"></i> -
+- #E500A4 - <i class="fa-solid fa-wine-glass"></i>
+- #256EFF - <i class="fa-solid fa-umbrella"></i>
+- #BE0A3A - <i class="fa-brands fa-fly"></i>
+- #F84113 - <i class="fa-solid fa-pencil"></i>
+- #0424DE - <i class="fa-solid fa-rocket"></i>
+- #1E2624 - <i class="fa-solid fa-paper-plane"></i>
+- #F8C21F - <i class="fa-solid fa-bell"></i>
+- #0DB128 - <i class="fa-solid fa-apple-whole"></i>
+- #EE0B4F - <i class="fa-solid fa-chess-queen"></i>
+- #00D161 - <i class="fa-solid fa-award"></i>
+- #FB3E3E - <i class="fa-brands fa-canadian-maple-leaf"></i>
+- #FF6593 - <i class="fa-solid fa-paw"></i>
+- #B077C5 - <i class="fa-solid fa-ice-cream"></i>
+- #8BE95C - <i class="fa-solid fa-lemon"></i>
+- #C20044 - <i class="fa-solid fa-graduation-cap"></i>
+- #24F1DD - <i class="fa-solid fa-anchor"></i>
 
 ### Pomodoro
 
