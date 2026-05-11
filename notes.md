@@ -1,19 +1,22 @@
-Página principal - light mode
+# Organization
+
+##  Página principal
+
+### light mode
 - #eeeeee - Off-white (background, cor predominante)
 - #0a0908 - Black (textos)
 - #034748 - Deep pine (títulos, subtítulos)
 - #e34a6f - Raspberry (destaques)
 - #9bc1bc - Ash Grey (elementos secundários, detalhes)
 
-Página principal - dark mode
+### dark mode
 - #0a0908 - Black (background, cor predominante)
 - #034748 - Deep pine (background, cor predominante)
 - #e6ebe0 - Off-white (textos)
 - #e34a6f - Raspberry (destaques)
 - #9bc1bc - Ash Grey (elementos secundários, detalhes)
 
-
-ICONES
+### Icones
 - favicon
 - skills -> <i class="fa-solid fa-brain"></i>
 - ferramentas -> <i class="fa-solid fa-wrench"></i>
@@ -29,15 +32,17 @@ ICONES
 
 - languages -> <i class="fa-brands fa-square-linkedin"></i> 
 
-PROJETOS
-Jogo da memória
-Níveis
-Fácil - 4x3 = 6 pares (12 cartas)
-Médio - 5x4 = 10 pares (20 cartas)
-Difícil - 6x6 = 18 pares (36 cartas)
+## PROJETOS
+
+### Jogo da memória
+
+#### Níveis
+- Fácil - 4x3 = 6 pares (12 cartas)
+- Médio - 5x4 = 10 pares (20 cartas)
+- Difícil - 6x6 = 18 pares (36 cartas)
 
 
-Paleta de cores
+#### Paleta de cores
 - #2D00F7, #A100F2, #D100D1, #F20089 - Gradiente (background)
 - #F7F7E7 - off-white
 - #000000 - preto
@@ -60,19 +65,85 @@ Paleta de cores
 - #C20044 - par 17
 - #24F1DD - par 18
 
-Icones
+#### Icones
+-  - par 1
+-  - par 2
+-  - par 3
+-  - par 4
+-  - par 5
+-  - par 6
+-  - par 7
+-  - par 8
+-  - par 9
+-  - par 10
+-  - par 11
+-  - par 12
+-  - par 13
+-  - par 14
+-  - par 15
+-  - par 16
+-  - par 17
+-  - par 18
 
-Pomodoro
+anchor
+angeslist
+apple
+bell
+biohazard
+bomb
+brain
+bullseye
+cake
+camera
+maple
+chess pieces
+radiation
+cloud
+clover
+crown
+bird
+dice
+feather
+fly
+graduation cap
+gripfire
+guitar
+hand piece
+heart
+ice cream
+laptop
+lemon
+lightbulb
+microphone
+mug
+paw
+pen
+pencil
+pizza
+plane
+puzzle piece
+rocket
+snostar
+tree
+trophy
+umbrella
+glass
+
+
+
+### Pomodoro
+
+#### Paleta de cores
 - #DA1E37 - light red
 - #B21E35 - dark red
 - #EFEFEF - off-white
 - #093824 - green
 - #020202 - black
 
-Explorador de filmes
+### Explorador de filmes
 
-Trivia
+### Trivia
 
-Atlas
+### Atlas
 
-Library manager
+### Library manager
