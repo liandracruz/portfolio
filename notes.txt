@@ -60,6 +60,8 @@ Paleta de cores
 - #C20044 - par 17
 - #24F1DD - par 18
 
+Icones
+
 Pomodoro
 - #DA1E37 - light red
 - #B21E35 - dark red
