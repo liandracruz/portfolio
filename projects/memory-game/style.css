@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -21,6 +23,7 @@ div#modal-overlay {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(8px);
+    font-family: "Cause", cursive;
 
     display: flex;
     flex-direction: column;
@@ -30,16 +33,46 @@ div#modal-overlay {
 
 div#level-screen, div#game-over-screen {
     background-color: #f7f7e7b6;
-    padding: 30px;
+    padding: 20px 30px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-    text-align: center;
+    /* text-align: center; */
     max-width: 400px;
     width: 90%;
 }
 
 .hidden {
-    display: none;
+    /* display: none; */
 }
 
+div#modal-overlay > div h1 {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #b90069;
+}
 
+div#modal-overlay > div#level-screen p {
+    margin: 10px 0px;
+}
+
+div#modal-overlay > div#level-screen div#btn-levels {
+    /* background-color: #2D00F7; */
+    /* width: 100%; */
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#modal-overlay > div#level-screen div#btn-levels button {
+    padding: 5px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.399);
+    cursor: pointer;
+    transition: 2s;
+}
+
+div#modal-overlay > div#level-screen div#btn-levels button:hover {
+    
+}
