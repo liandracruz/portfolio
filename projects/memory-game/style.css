@@ -42,7 +42,7 @@ div#level-screen, div#game-over-screen {
 }
 
 .hidden {
-    /* display: none; */
+    display: none;
 }
 
 div#modal-overlay > div h1 {
@@ -51,8 +51,8 @@ div#modal-overlay > div h1 {
     color: #b90069;
 }
 
-div#modal-overlay > div#level-screen p {
-    margin: 10px 0px;
+div#modal-overlay > div p {
+    margin: 5px 0px 15px 0px;
 }
 
 div#modal-overlay > div#level-screen div#btn-levels {
@@ -63,16 +63,33 @@ div#modal-overlay > div#level-screen div#btn-levels {
     justify-content: space-evenly;
 }
 
-div#modal-overlay > div#level-screen div#btn-levels button {
+div#modal-overlay > div#game-over-screen div#btn-game-over {
+    /* background-color: #2D00F7; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#modal-overlay > div#game-over-screen div#btn-game-over button {
+    width: 150px;
+}
+
+div#modal-overlay button {
+    font-weight: 600;
     padding: 5px;
     width: 80px;
     border: none;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.399);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
     cursor: pointer;
-    transition: 2s;
+    transition: 0.3s;
 }
 
-div#modal-overlay > div#level-screen div#btn-levels button:hover {
-    
+div#modal-overlay button:hover {
+    background-color: #b1b1b1;
+    color: white;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
+
+
+
