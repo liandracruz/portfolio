@@ -42,7 +42,7 @@ div#level-screen, div#game-over-screen {
 }
 
 .hidden {
-    display: none;
+    /* display: none; */
 }
 
 div#modal-overlay > div h1 {
@@ -65,12 +65,13 @@ div#modal-overlay > div#level-screen div#btn-levels {
 
 div#modal-overlay > div#game-over-screen div#btn-game-over {
     /* background-color: #2D00F7; */
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 div#modal-overlay > div#game-over-screen div#btn-game-over button {
-    width: 150px;
+    width: 165px;
 }
 
 div#modal-overlay button {
