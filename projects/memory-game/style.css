@@ -42,7 +42,7 @@ div#level-screen, div#game-over-screen {
 }
 
 .hidden {
-    /* display: none; */
+    display: none;
 }
 
 div#modal-overlay > div h1 {
