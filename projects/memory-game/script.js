@@ -18,3 +18,34 @@ const cardPool = [
     {iconClass: "fa-solid fa-graduation-cap", color: "#C20044", name: "graduation-cap"},
     {iconClass: "fa-solid fa-anchor", color: "#24F1DD", name: "anchor"}
 ];
+
+const levelsBtn = document.querySelectorAll(".selecting-levels");
+const overlayBtns = document.querySelectorAll(".game-over-screen-btns");
+const overlayScreens = document.querySelector("#modal-overlay");
+const gameBoard = document.querySelector("#game-board");
+
+levelsBtn.forEach(button => {
+    button.addEventListener("click", (event) => {
+        const clickeLevelBtnId = event.target.id;
+
+        if(clickeLevelBtnId === "easy-level") {
+            // 6 pairs
+        } else if(clickeLevelBtnId === "medium-level") {
+            // 10 pairs
+        } else if(clickeLevelBtnId === "hard-level") {
+            //  18 pairs
+        }
+    });
+});
+
+overlayBtns.forEach(button => {
+    button.addEventListener('click', (event) => {
+        const clickedEndGameScreenBtn = event.target.id;
+
+        if(clickedEndGameScreenBtn === "btn-restart") {
+            // New Game
+        } else if(clickedEndGameScreenBtn === "btn-portfolio") {
+            // Go back to portfolio
+        }
+    });
+});
