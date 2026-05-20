@@ -26,13 +26,13 @@ const gameBoard = document.querySelector("#game-board");
 
 levelsBtn.forEach(button => {
     button.addEventListener("click", (event) => {
-        const clickeLevelBtnId = event.target.id;
+        const clickedLevelBtnId = event.target.id;
 
-        if(clickeLevelBtnId === "easy-level") {
+        if(clickedLevelBtnId === "easy-level") {
             // 6 pairs
-        } else if(clickeLevelBtnId === "medium-level") {
+        } else if(clickedLevelBtnId === "medium-level") {
             // 10 pairs
-        } else if(clickeLevelBtnId === "hard-level") {
+        } else if(clickedLevelBtnId === "hard-level") {
             //  18 pairs
         }
     });
@@ -49,3 +49,19 @@ overlayBtns.forEach(button => {
         }
     });
 });
+
+const shuffle = function(array) {
+    for(let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+console.log(shuffle(cardPool));
+
+const selectCards = function(numPairs) {
+
+};
+
+
