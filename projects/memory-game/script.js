@@ -19,4 +19,18 @@ const cardPool = [
     {iconClass: "fa-solid fa-anchor", color: "#24F1DD", name: "anchor"}
 ];
 
+const btnLevelSelection = document.querySelectorAll(".selecting-levels");
 
+btnLevelSelection.forEach(button => {
+    button.addEventListener('click', event => {
+        const clickedBtnId = event.currentTarget.id;
+
+        if(clickedBtnId === "easy-level") {
+            // 6 pairs
+        } else if (clickedBtnId === "medium-level") {
+            // 10 pairs
+        } else if(clickedBtnId === "hard-level") {
+            // 18 pairs
+        }
+    });
+});
