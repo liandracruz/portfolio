@@ -19,49 +19,4 @@ const cardPool = [
     {iconClass: "fa-solid fa-anchor", color: "#24F1DD", name: "anchor"}
 ];
 
-const levelsBtn = document.querySelectorAll(".selecting-levels");
-const overlayBtns = document.querySelectorAll(".game-over-screen-btns");
-const overlayScreens = document.querySelector("#modal-overlay");
-const gameBoard = document.querySelector("#game-board");
-
-levelsBtn.forEach(button => {
-    button.addEventListener("click", (event) => {
-        const clickedLevelBtnId = event.target.id;
-
-        if(clickedLevelBtnId === "easy-level") {
-            // 6 pairs
-        } else if(clickedLevelBtnId === "medium-level") {
-            // 10 pairs
-        } else if(clickedLevelBtnId === "hard-level") {
-            //  18 pairs
-        }
-    });
-});
-
-overlayBtns.forEach(button => {
-    button.addEventListener('click', (event) => {
-        const clickedEndGameScreenBtn = event.target.id;
-
-        if(clickedEndGameScreenBtn === "btn-restart") {
-            // New Game
-        } else if(clickedEndGameScreenBtn === "btn-portfolio") {
-            // Go back to portfolio
-        }
-    });
-});
-
-const shuffle = function(array) {
-    for(let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-}
-
-console.log(shuffle(cardPool));
-
-const selectCards = function(numPairs) {
-
-};
-
 
