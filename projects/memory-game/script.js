@@ -26,11 +26,32 @@ btnLevelSelection.forEach(button => {
         const clickedBtnId = event.currentTarget.id;
 
         if(clickedBtnId === "easy-level") {
-            // 6 pairs
+            startGame(6);
         } else if (clickedBtnId === "medium-level") {
-            // 10 pairs
+            startGame(10);
         } else if(clickedBtnId === "hard-level") {
-            // 18 pairs
+            startGame(18);
         }
     });
 });
+
+function startGame(pairCount) {
+    // shuffle the cards
+    const shuffledPool = shuffle([...cardPool]);
+    // slecting the cards of the game
+    const selectedCards = shuffledPool.slice(0, pairCount);
+    // duplicate cards
+    const gameDeck = [...selectedCards, ...selectedCards];
+    // shuffle the final deck
+    const finalDeck = shuffle(gameDeck);
+
+    console.log("My final deck is: ", finalDeck);
+}
+
+function shuffle(array) {
+    for(let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j] = array[j], array[1]];
+    }
+    return array
+}
