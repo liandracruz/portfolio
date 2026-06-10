@@ -20,6 +20,7 @@ const cardPool = [
 ];
 
 const btnLevelSelection = document.querySelectorAll(".selecting-levels");
+const gameBoard = document.querySelector("#game-board");
 
 btnLevelSelection.forEach(button => {
     button.addEventListener('click', event => {
@@ -46,6 +47,7 @@ function startGame(pairCount) {
     const finalDeck = shuffle(gameDeck);
 
     console.log("My final deck is: ", finalDeck);
+    renderBoard(finalDeck)
 }
 
 function shuffle(array) {
@@ -54,4 +56,16 @@ function shuffle(array) {
         [array[i], array[j] = array[j], array[1]];
     }
     return array
+}
+
+function renderBoard(deck) {
+    deck.forEach(card => {
+        const newCard = document.createElement("div");
+        newCard.classList.add("game-cards");
+        const cardIcons = document.createElement("i");
+        cardIcons.className = card.iconClass;
+
+        newCard.appendChild(cardIcons);
+        gameBoard.appendChild(newCard);
+    });
 }
