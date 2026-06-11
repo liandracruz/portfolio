@@ -42,7 +42,7 @@ div#level-screen, div#game-over-screen {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 div#modal-overlay > div h1 {
@@ -92,5 +92,29 @@ div#modal-overlay button:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
+section#game-area div#game-board {
+    display: grid;
+    /* grid-template-rows: ;
+    grid-template-columns: ; */
+    gap: 15px; /* Spacing between cards */
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.game-cards {
+    width: 80px;
+    height: 110px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
 
 

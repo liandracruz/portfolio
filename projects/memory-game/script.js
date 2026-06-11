@@ -37,6 +37,10 @@ btnLevelSelection.forEach(button => {
 });
 
 function startGame(pairCount) {
+    // hiding the overlay
+    const modalOverlay = document.querySelector("#modal-overlay");
+    modalOverlay.classList.add("hidden");
+
     // shuffle the cards
     const shuffledPool = shuffle([...cardPool]);
     // slecting the cards of the game
