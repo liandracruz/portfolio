@@ -1,0 +1,199 @@
+/* Reset & General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4efe9;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background-color: #52373c;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-cv {
+  background-color: #fdfbf7;
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  border: 1px solid #ccc;
+}
+
+.lang-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #8c736c;
+  background-image: url('assets/images/hero-image-option1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+/* Container & Cards */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #e6dfd5;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+  color: #0d5c63;
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background-color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Project Card layout (Mobile First / Small Screens) */
+.project-card {
+  background-color: #ded6c9;
+  border: 1px solid #c4bcae;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.project-img {
+  background-color: #d1c6b5;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #c4bcae;
+  color: #555;
+  font-weight: 500;
+}
+
+.project-info {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.project-info h3 {
+  color: #0d5c63;
+}
+
+.tools {
+  font-size: 0.95rem;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.btn-project {
+  display: inline-block;
+  align-self: flex-start;
+  background-color: #d0e1f9;
+  color: #111;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #9fbcdb;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* Desktop layout adjustment (Large Screens) */
+@media (min-width: 600px) {
+  .project-card {
+    flex-direction: row;
+  }
+
+  .project-img {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+    border-right: 1px solid #c4bcae;
+  }
+
+  .project-info {
+    width: 60%;
+  }
+}
+
+/* Footer */
+.footer {
+  background-color: #52373c;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
