@@ -1,0 +1,62 @@
+VERSÃO EM PORTUGUÊS
+
+--Apresentação--
+
+Olá, sou a Liandra Cruz. Especialista em suporte executivo, automação e Business Intelligence.
+
+--Sobre mim--
+Todo negócio de sucesso depende de uma engrenagem administrativa que, apesar de invisível, precisa ser impecável. Minha missão é auxiliar executivos, empresários e profissionais autônomos a terem completo controle desta engrenagem através da estruturação e organização de processos e rotinas, otimização de tempo, rigor técnico e sensibilidade humana.
+Com sólido conhecimento em organização de processos, automação de fluxos, atendimento em ambiente digital e análise de dados (BI), e experiência em diversas ferramentas como: Pacote Office, Google Workspace, Trello, Notion, Loocker Studio e Power BI. Atuo como parceira estratégica do seu negócio, auxiliando na otimização de tempo e ajudando você a ter uma visão mais clara e rentável da sua empresa.
+
+
+--Projeto 1: Central Executiva de Tarefas & Rotinas--
+Ferramentas: Trello (Kanban)
+Criado com o objetivo de estruturar a rotina executiva da fictícia chamada Aura Business Support, este quadro Kanban centraliza o fluxo de trabalho de forma clara através de listas e etiquetas personalizadas. O sistema promove uma melhor visualização das demandas diárias, reduzindo gargalos operacionais e aumentando a eficiência na tomada de decisões.
+
+--Projeto 2: Planilha de Controle Financeiro & Fluxo de Caixa--
+Ferramentas: Google Sheets (Fórmulas Avançadas & Formatação Condicional)
+Planilha composta por duas abas: a primeira consiste em uma base operacional de lançamentos diários com regras inteligentes de formatação condicional; a segunda um dashboard automatizado com funções SOMASE e SOMASES, possibilitando uma visualização clara do fluxo monetário da empresa, além de reduzir a ocorrência de erros manuais. A interface limpa auxilia na leitura de grandes quantidades de dados de forma intuitiva, facilitando a tomada de decisões financeiras estratégicas da companhia.
+
+--Projeto 3: Dashboard Executivo de Gestão de estoque e Vendas (BI)--
+Ferramentas: Google Sheets e Looker Studio
+Projeto de Business Intelligence (BI) focado na coleta, organização e análise estratégica de dados, permitindo uma visualização dinâmica do cenário de vendas e estoque da empresa. Composto por uma base de dados automatizada construída no Google Sheets, a planilha calcula automaticamente o estoque atualizado, faturamento e lucro bruto dos produtos, além de uma linha de consolidação geral. Estes dados foram conectados ao Looker Studio, onde alimentam um painel interativo que facilita a extração de insights, contando com filtros personalizados para análises mais detalhadas.
+
+--Projeto 4: Manual de Procedimento Operacional Padrão (SOP)--
+Ferramentas: Google Docs
+Desenvolvido através do Google Docs, este projeto consiste em um Manual de Procedimento Operacional Padrão (SOP) para o atendimento ao cliente da clínica L'Essence Estética e Saúde. O documento padroniza todas as etapas de contato, onboarding e acompanhamento, servindo como guia oficial para a equipe e garantindo que todos os clientes recebam uma experiência impecável e consistente.
+
+--Projeto 5: Portfólio--
+Ferramentas: HTML5, CSS3, JavaScript, GIT, GitHub Desktop, GitHub, Gemini.
+Desenvolvido do zero utilizando HTML5, CSS3 e JavaScript, este portfólio foi estruturado para servir como vitrine principal de meus serviços como Assistente Virtual. O projeto foi desenvolvido em dois idiomas (português e inglês), além de contar com técnicas de design responsivo (mobile first), experiência do usuário (UX), organização modular voltada a alta performance, e versionamento de projetos.
+
+------------------------------------------
+
+ENGLISH VERSION
+
+--Introduction--
+Hello, I'm Liandra Cruz. Specialist in executive support, automation, and Business Intelligence.
+
+--About Me--
+Every successful business relies on an administrative framework that, although invisible, must be flawless. My mission is to help executives, business owners, and independent professionals achieve complete control of this engine through process and routine structuring, time optimization, technical rigor, and human sensitivity.
+With solid expertise in process organization, workflow automation, digital customer service, and business intelligence (BI). Alongside hands-on experience in tools such as: Microsoft Office, Google Workspace, Trello, Notion, Looker Studio, and Power BI; I act as your strategic business partner, optimizing your time and giving you a much clearer and more profitable vision of your company.
+
+--Project 1: Aura Business Support - Executive Workflow & Productivity Hub--
+Tools: Trello
+Created to structure the executive routine of a fictional company named Aura Business Support, this Kanban board centralizes the workflow through custom lists and labels. The system promotes agile visualization of daily demands, reducing operacional bottlenecks and increasing decision-making efficiency.
+
+--Project 2: Aura Business Support - Financial & Operational Control Spreadsheet--
+Tools: Google Sheets (Advanced Formulas & Conditional Formatting)
+A spreadsheet structured into two tabs: the first is an operational base for daily entries wth smart conditional formatting rules; the second features an automated dashboard with SUMIF and SUMIFS formulas, providing a clear view of the company's cash flow while minimizing manual errors. The clean interface assists in reading large amounts of data intuitively, facilitating strategic financial decision-making for the company.
+
+--Project 3: Inventory & Sales Executive Dashboard (BI)--
+Tools: Google Sheets & Looker Studio
+A Business Intelligence (BI) project focused on data collection, organization, and strategic analysis, enabling a dynamic visualization of the company's sales and inventory scenarios. The solution features an automated database in Google Sheets, which calculates updated stock, revenue, and gross profit per item in real-time, alongside a general summary row. Connected to Looker Studio, these data feed a dynamic, interactive dashboard that facilitates insight extraction, featuring custom filters for detailed category or period analysis.
+
+--Project 4: Standard Operating Procedure (SOP)--
+Tools: Google Docs
+Developed in Google Docs, this project consists of a Standard Operating Procedure (SOP) for customer service at L'Essence Estética e Saúde clinic. The document standardizing all contact, onboarding, and follow-up stages, serving as an official guide for the team and ensuring that every client receives an impeccable and consistent experience.
+
+--Project 5: Portfolio--
+Tools: HTML5, CSS3, JavaScript, GIT, GitHub Desktop, GitHub, Gemini.
+Built from scratch using HTML5, CSS3, and JavaScript, this portfolio was structured to serve as the main showcase for my services as a Virtual Assistant. The project features a dual-language interface (Portuguese and English), responsive mobile-first design, user experience (UX) principles, modular organization geared toward high performance, and project version control.
+
