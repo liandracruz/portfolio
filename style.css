@@ -72,13 +72,26 @@ body {
   height: auto;
 }
 
+.lang-selector:hover {
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+  transition: all 0.3s ease;
+}
+
+.lang-link {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+
 /* Hero Section */
 .hero {
   background-color: #8c736c;
   background-image: url('assets/images/hero-image-option1.jpg');
   background-size: cover;
   background-position: center;
-  height: 250px;
+  background-attachment: fixed;
+  height: 300px;
   position: relative;
   display: flex;
   align-items: center;
