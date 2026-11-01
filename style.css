@@ -1,3 +1,11 @@
+:root {
+  --background-color: #f2edeb;
+  --primary-color: #603a40;
+  --secondary-color: #0d5c63;
+  --accent-color: #fdf9f1;
+  --text-color: #333;
+}
+
 /* Reset & General Styles */
 * {
   margin: 0;
@@ -7,30 +15,23 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4efe9;
-  color: #333;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 /* Header */
 .header {
-  background-color: #52373c;
-  color: #fff;
+  background-color: var(--primary-color);
+  color:  var(--accent-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0.8rem 2rem;
 }
 
 .logo {
-  font-weight: bold;
-  font-size: 1.5rem;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 55px;
+  height: auto;
 }
 
 .nav-controls {
@@ -40,8 +41,8 @@ body {
 }
 
 .btn-cv {
-  background-color: #fdfbf7;
-  color: #333;
+  background-color: var(--background-color);
+  color: var(--primary-color);
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 6px;
@@ -49,11 +50,26 @@ body {
   border: 1px solid #ccc;
 }
 
+.btn-cv:hover {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  border-color: 2px solid var(--secondary-color);
+  transition: all 0.3s ease;
+}
+
 .lang-selector {
   display: flex;
   align-items: center;
-  gap: 0.3rem;
+  gap: 0.5rem;
   font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.3rem 0.5rem 0.1rem 0.5rem;
+}
+
+.lang-selector img {
+  width: 20px;
+  height: auto;
 }
 
 /* Hero Section */
