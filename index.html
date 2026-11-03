@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/8446548d95.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/images/logo - dark font transparent bg.png" type="image/x-icon">
   <title>Portfólio - Liandra Cruz</title>
 </head>
 <body>
@@ -53,14 +54,14 @@
 
       <!-- Project Cards -->
     <article class="project-card" id="project1">
-        <div class="project-img">
-          <i class="fa-solid fa-circle-arrow-left"></i>
-          <div class="carousel-container">
-            <img src="assets/images/project1-trello-img1.png" alt="Central Executiva de Tarefas & Rotinas - Trello" class="carousel-image">
-            <img src="assets/images/project1-trello-img2.png" alt="Central Executiva de Tarefas & Rotinas - Trello" class="carousel-image">
-          </div>
-          <i class="fa-solid fa-circle-arrow-right"></i>
+      <div class="project-img">
+        <i class="fa-solid fa-circle-arrow-left carousel-btn prev-btn"></i>
+        <div class="carousel-container">
+        <img src="assets/images/project1-trello-img1.png" alt="Central Executiva de Tarefas & Rotinas - Trello" class="carousel-image">
+        <img src="assets/images/project1-trello-img2.png" alt="Central Executiva de Tarefas & Rotinas - Trello" class="carousel-image">
         </div>
+        <i class="fa-solid fa-circle-arrow-right carousel-btn next-btn"></i>
+      </div>
         <div class="project-info">
           <h3>Central Executiva de Tarefas & Rotinas</h3>
           <p class="tools"><strong>Ferramentas:</strong> Trello (Kanban)</p>
@@ -73,12 +74,12 @@
 
     <article class="project-card" id="project2">
         <div class="project-img">
-          <i class="fa-solid fa-circle-arrow-left"></i>
+          <i class="fa-solid fa-circle-arrow-left carousel-btn prev-btn"></i>
           <div class="carousel-container">
             <img src="assets/images/project2-financial and operational control spreadsheet-img1.png" alt="Planilha de Controle Financeiro & Fluxo de Caixa - Google Sheets" class="carousel-image">
             <img src="assets/images/project2-financial and operational control spreadsheet-img2.png" alt="Planilha de Controle Financeiro & Fluxo de Caixa - Google Sheets" class="carousel-image">
           </div>
-          <i class="fa-solid fa-circle-arrow-right"></i>
+          <i class="fa-solid fa-circle-arrow-right carousel-btn next-btn"></i>
         </div>
         <div class="project-info">
           <h3>Planilha de Controle Financeiro & Fluxo de Caixa</h3>
@@ -92,13 +93,13 @@
 
     <article class="project-card" id="project3">
         <div class="project-img">
-          <i class="fa-solid fa-circle-arrow-left"></i>
+          <i class="fa-solid fa-circle-arrow-left carousel-btn prev-btn"></i>
           <div class="carousel-container">
             <img src="assets/images/project3-lumina store inventory and sales spreadsheet.png" alt="Dashboard Executivo de Gestão de estoque e Vendas (BI)" class="carousel-image">
             <img src="assets/images/project3-lumina store sales dashboard-img1.png" alt="Dashboard Executivo de Gestão de estoque e Vendas (BI)" class="carousel-image">
             <img src="assets/images/project3-lumina store sales dashboard-img2.png" alt="Dashboard Executivo de Gestão de estoque e Vendas (BI)" class="carousel-image">
           </div>
-          <i class="fa-solid fa-circle-arrow-right"></i>
+          <i class="fa-solid fa-circle-arrow-right carousel-btn next-btn"></i>
         </div>
         <div class="project-info">
           <h3>Dashboard Executivo de Gestão de estoque e Vendas (BI)</h3>
@@ -112,13 +113,13 @@
 
     <article class="project-card" id="project4">
         <div class="project-img">
-          <i class="fa-solid fa-circle-arrow-left"></i>
+          <i class="fa-solid fa-circle-arrow-left carousel-btn prev-btn"></i>
           <div class="carousel-container">
             <img src="assets/images/project4-sop manual pt-img1.png" alt="Manual de Procedimento Operacional Padrão (SOP)" class="carousel-image">
             <img src="assets/images/project4-sop manual pt-img2.png" alt="Manual de Procedimento Operacional Padrão (SOP)" class="carousel-image">
             <img src="assets/images/project4-sop manual pt-img3.png" alt="Manual de Procedimento Operacional Padrão (SOP)" class="carousel-image">
           </div>
-          <i class="fa-solid fa-circle-arrow-right"></i>
+          <i class="fa-solid fa-circle-arrow-right carousel-btn next-btn"></i>
         </div>
         <div class="project-info">
           <h3>Manual de Procedimento Operacional Padrão (SOP)</h3>
@@ -132,9 +133,9 @@
 
     <article class="project-card" id="project5">
         <div class="project-img">
-          <i class="fa-solid fa-circle-arrow-left"></i>
+          <i class="fa-solid fa-circle-arrow-left carousel-btn prev-btn"></i>
           <div class="carousel-container"></div>
-          <i class="fa-solid fa-circle-arrow-right"></i>
+          <i class="fa-solid fa-circle-arrow-right carousel-btn next-btn"></i>
         </div>
         <div class="project-info">
           <h3>Portfólio</h3>
@@ -173,5 +174,29 @@
     <p>Todos os direitos reservados.</p>
   </footer>
 
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const card = document.querySelector("#project1");
+    const container = card.querySelector(".carousel-container");
+    const prevBtn = card.querySelector(".prev-btn");
+    const nextBtn = card.querySelector(".next-btn");
+
+    // Ao clicar na seta da direita, avança a largura exata de uma imagem
+    nextBtn.addEventListener("click", () => {
+      container.scrollBy({
+        left: container.clientWidth,
+        behavior: "smooth"
+      });
+    });
+
+    // Ao clicar na seta da esquerda, volta a largura exata de uma imagem
+    prevBtn.addEventListener("click", () => {
+      container.scrollBy({
+        left: -container.clientWidth,
+        behavior: "smooth"
+      });
+    });
+  });
+</script>
 </body>
 </html>

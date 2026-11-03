@@ -160,18 +160,49 @@ body {
 }
 
 .project-img {
-  background-color: #d1c6b5;
-  text-align: center;
-  border-bottom: 1px solid #c4bcae;
-  color: #555;
-  font-weight: 500;
-
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   gap: 8px;
+  position: relative;
   overflow: hidden;
-  padding: 16px !important;
+  padding: 12px !important;
+  background-color: #d1c6b5;
+  border-radius: 8px;
+}
+
+.carousel-container {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+  scrollbar-width: none;
+}
+
+carousel-image {
+  flex: 0 0 100%;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.carousel-btn {
+  font-size: 1.5rem;
+  color: #0d5c63; /* Cor padrão combinando com seu tema */
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.2s ease, color 0.2s ease;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.carousel-btn:hover {
+  color: #52373c;
+  transform: scale(1.1);
 }
 
 .project-info {
