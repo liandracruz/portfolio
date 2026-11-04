@@ -134,7 +134,14 @@
     <article class="project-card" id="project5">
         <div class="project-img">
           <i class="fa-solid fa-circle-arrow-left carousel-btn prev-btn"></i>
-          <div class="carousel-container"></div>
+          <div class="carousel-container">
+            <img src="assets/images/project5-portfolio-img1.png" alt="portfolio" class="carousel-image">
+            <img src="assets/images/project5-portfolio-img2.png" alt="portfolio" class="carousel-image">
+            <img src="assets/images/project5-portfolio-img3.png" alt="portfolio" class="carousel-image">
+            <img src="assets/images/project5-portfolio-img4.png" alt="portfolio" class="carousel-image">
+            <img src="assets/images/project5-portfolio-img5.png" alt="portfolio" class="carousel-image">
+            <img src="assets/images/project5-portfolio-img6.png" alt="portfolio" class="carousel-image">
+          </div>
           <i class="fa-solid fa-circle-arrow-right carousel-btn next-btn"></i>
         </div>
         <div class="project-info">
@@ -175,25 +182,30 @@
   </footer>
 
   <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const card = document.querySelector("#project1");
-    const container = card.querySelector(".carousel-container");
-    const prevBtn = card.querySelector(".prev-btn");
-    const nextBtn = card.querySelector(".next-btn");
+  document.addEventListener("DOMContentLoaded", function() {
+    const projectCards = document.querySelectorAll(".project-card");
 
-    // Ao clicar na seta da direita, avança a largura exata de uma imagem
-    nextBtn.addEventListener("click", () => {
-      container.scrollBy({
-        left: container.clientWidth,
-        behavior: "smooth"
+    projectCards.forEach(card => {
+      const container = card.querySelector(".carousel-container");
+      const prevBtn = card.querySelector(".prev-btn");
+      const nextBtn = card.querySelector(".next-btn");
+
+      if (!container || !prevBtn || !nextBtn) return;
+
+      // Ao clicar na seta da direita, avança a largura exata de uma imagem
+      nextBtn.addEventListener("click", () => {
+        container.scrollBy({
+          left: container.clientWidth,
+          behavior: "smooth"
+        });
       });
-    });
 
-    // Ao clicar na seta da esquerda, volta a largura exata de uma imagem
-    prevBtn.addEventListener("click", () => {
-      container.scrollBy({
-        left: -container.clientWidth,
-        behavior: "smooth"
+      // Ao clicar na seta da esquerda, volta a largura exata de uma imagem
+      prevBtn.addEventListener("click", () => {
+        container.scrollBy({
+          left: -container.clientWidth,
+          behavior: "smooth"
+        });
       });
     });
   });
