@@ -207,6 +207,13 @@ body {
   transform: scale(1.1);
 }
 
+/* Estilo para a seta quando estiver inativa/desativada */
+.carousel-btn.disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .project-info {
   padding: 19px;
   display: flex;
